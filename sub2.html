@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1400">
+    <title>LASANTE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/sub2.css">
+    <link rel="stylesheet" href="css/main_style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="js/jquery-3.4.1.min.js">
+    <link rel="stylesheet" href="js/slick.min.js">
+    <link rel="stylesheet" href="js/slick.js">
+</head>
+
+<body>
+    <div id="banner">
+        <div id="header_wrap">
+            <div class="header">
+                <div class="logo_wrap">
+                    <h1 class="logo"><a href="index.html"><img src="images/main/logo.png" alt="#"></a>
+                    </h1>
+                </div>
+                <ul id="gnb">
+                    <li><a href="sub1.html">BRAND</a></li>
+                    <li><a href="sub2.html">PRODUCT</a></li>
+                    <li class="m2"><a href="sub3.html">EVENT</a></li>
+                    <li><a href="sub4.html">CONTACT</a></li>
+                    <li><a href="sub5.html">COMMUNITY</a></li>
+                    <li><a href="#"><img src="images/main/search.png" alt="#"></a></li>
+                </ul>
+                <div class="link">
+                    <ul>
+                        <li><a href="#">Login</a></li>
+                        <li class="cart"><a href="#">Cart</a></li>
+                        <li class="mypage"><a href="#">My page</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="banner_text">
+            <p class="b1">Transitional scent of green forest, Iris flower scent, and richer oriental mood.</p>
+            <p class="b2">시간에 따라 변화하는 숲의 향과 아이리스, 그리고 더욱 풍부해진 오리엔탈 무드</p>
+            <p class="b3">시간에 따라 변화하는 초록빛 싱그러움을 6am, Noon, 9pm, Midnight 4가지 시간에 향수로 담았습니다. <br>
+                하루의 시간, 일상 속 행복의 순간으로부터 시작된 LASANTE의 향을 통해 당신의 가장 빛나고 따뜻한 ‘순간’으로 떠나보세요.</p>
+        </div>
+    </div>
+    <div id="section1">
+        <p>New Collection</p>
+        <section class="regular slider">
+            <div>
+              <img src="images/product/product_jar.png">
+            </div>
+            <div>
+              <img src="images/product/product_handcream.png">
+            </div>
+            <div>
+              <img src="images/product/product_newperfume.png">
+            </div>
+            <div>
+              <img src="images/product/product_jar.png">
+            </div>
+            <div>
+              <img src="images/product/product_handcream.png">
+            </div>
+            <div>
+              <img src="images/product/product_newperfume.png">
+            </div>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+        <script src="js/slick.js"></script>
+        <script type="text/javascript">
+            $(document).on('ready', function () {
+                $(".regular").slick({
+                    dots: true,
+                    infinite: true,
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    autoplay: true,      //자동시작 (boolean) -default:false
+                    autoplaySpeed: 1000, //자동넘기기 시간(int, 1000ms = 1초)
+                });
+            });
+        </script>
+    </div>
+    <div id="section2">
+        <p class="all_category">ALL CATEGORY</p>
+        <div class="gnb_wrap">
+            <ul class="gnb">
+                <li><a href="#">All product</a></li>
+                <li><a href="#">Perfume</a></li>
+                <li><a href="#">Hand Care<a></li>
+                <li><a href="#">Diffuser</a></li>
+                <li><a href="#">
+                        <div class="filter_wrap">
+                            <ul id="filter">
+                                <a href="#">Filter</a>
+                                <ul class="submenu">
+                                    <li><a href="#">신상품</a></li>
+                                    <li><a href="#">낮은가격</a></li>
+                                    <li><a href="#">높은가격</a></li>
+                                    <li><a href="#">인기상품</a></li>
+                                    <li><a href="#">사용후기</a></li>
+                                </ul>
+                            </ul>
+                        </div>
+                    </a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div id="section3">
+
+        <img class="side_perfume" src="images/product/Perfume_side.png" alt="#">
+
+        <div class="perfume_wrap">
+            <div class="perfume_photo">
+                <img src="images/product/perfume_photo.jpg" alt="#">
+            </div>
+
+            <div class="perfume">
+                <p class="product_t1">Perfume</p>
+                <p class="product_t2">어둠이 내린 숲의 저녁. 모닥불 타는 소리 사이로 들려오는 연인들의 달콤한 속삭임. <br>
+                    어디서도 만나지 못 했던 라상테의 무드를 느껴보세요.</p>
+                <div class="perfume_slide">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <ul>
+                                    <li><a href="#"><img src="images/product/perfume.png" alt="#"></a></li>
+                                    <li class="s1"><a href="#">6am EAU DE PERFUM /<span> 50ml</span></a></li>
+                                    <li class="s2"><a href="#"></a></li>
+                                    <li class="s3"><a href="#">이슬 머금은 잔디와 촉촉한 흙내음.</a></li>
+                                    <li class="s4"><a href="#">89,000 KRW</a></li>
+                                </ul>
+                            </div>
+                            <div class="swiper-slide">
+                                <ul>
+                                    <li><a href="#"><img src="images/product/perfumeyellow.png" alt="#"></a></li>
+                                    <li class="s1"><a href="#">Noon EAU DE PERFUM /<span> 50ml</span></a></li>
+                                    <li class="s2"><a href="#"></a></li>
+                                    <li class="s3"><a href="#">차가운 물 향과 햇살에 만개한 아이리스 꽃 향.</a></li>
+                                    <li class="s4"><a href="#">89,000 KRW</a></li>
+                                </ul>
+                            </div>
+                            <div class="swiper-slide">
+                                <ul>
+                                    <li><a href="#"><img src="images/product/perfumepurple.png" alt="#"></a></li>
+                                    <li class="s1"><a href="#">9pm EAU DE PERFUM /<span> 50ml</span></a></li>
+                                    <li class="s2"><a href="#"></a></li>
+                                    <li class="s3"><a href="#">바닐라의 달콤함과 숲 속 모닥불의 스모키함.</a></li>
+                                    <li class="s4"><a href="#">89,000 KRW</a></li>
+                                </ul>
+                            </div>
+                            <div class="swiper-slide">
+                                <ul>
+                                    <li><a href="#"><img src="images/product/perfume best.png" alt="#"></a></li>
+                                    <li class="s1"><a href="#">Midnight EAU DE PERFUM /<span> 50ml</span></a></li>
+                                    <li class="s2"><a href="#"></a></li>
+                                    <li class="s3"><a href="#">달빛에 감싸인 숲 속의 깊은 밤.</a></li>
+                                    <li class="s4"><a href="#">89,000 KRW</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 2,
+                spaceBetween: 30,
+                loop: true,
+                autoplay: {//자동재생 
+                    delay: 2000,//슬라이드 넘어가는 시간
+                    disableOnInteraction: false,//클릭이동후 다시 슬라이드
+                },
+                cssMode: true,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                //   pagination: {
+                //     el: ".swiper-pagination",
+                //   },
+                mousewheel: true,
+                keyboard: true,
+            });
+        </script>
+
+        <img class="side_handcare" src="images/product/Hand Care_side.png" alt="#">
+
+        <div class="handcare_wrap">
+            <div class="handcare_photo">
+                <img src="images/product/handcare_photo.jpg" alt="#">
+            </div>
+
+            <div class="handcare">
+                <p class="product_t1">Hand Care</p>
+                <p class="product_t2">라상테의 핸드케어 제품들은 퍼퓸 본연의 향을 그대로 담아 은은한 향기가 지속됩니다. <br>
+                    또한 비건 포뮬러로 만들어진 순한 식물성 보습 성분이 피부를 산뜻하고 건강하게 유지합니다.</p>
+
+                <div class="handcare_slide">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <ul>
+                                    <li><a href="#"><img src="images/product/soap.png" alt="#"></a></li>
+                                    <li class="s1"><a href="#">HAND SOAP /<span> 250g</span></a></li>
+                                    <li class="s2"><a href="#"></a></li>
+                                    <li class="s3"><a href="#">라상테의 비건 포뮬러 비누.</a></li>
+                                    <li class="s4"><a href="#">10,400 KRW</a></li>
+                                </ul>
+                            </div>
+                            <div class="swiper-slide">
+                                <ul>
+                                    <li><a href="#"><img src="images/product/handcream lily.png" alt="#"></a></li>
+                                    <li class="s1"><a href="#">LILY HAND CREAM /<span> 50ml</span></a></li>
+                                    <li class="s2"><a href="#"></a></li>
+                                    <li class="s3"><a href="#">따뜻한 햇살과 릴리.</a></li>
+                                    <li class="s4"><a href="#">21,000 KRW</a></li>
+                                </ul>
+                            </div>
+                            <div class="swiper-slide">
+                                <ul>
+                                    <li><a href="#"><img src="images/product/handcream rose copy.png" alt="#"></a></li>
+                                    <li class="s1"><a href="#">ROSE HAND CREAM /<span> 50ml</span></a></li>
+                                    <li class="s2"><a href="#"></a></li>
+                                    <li class="s3"><a href="#">로맨틱한 사랑스러운 장미향.</a></li>
+                                    <li class="s4"><a href="#">21,000 KRW</a></li>
+                                </ul>
+                            </div>
+                            <div class="swiper-slide">
+                                <ul>
+                                    <li><a href="#"><img src="images/product/handcream peony.png" alt="#"></a></li>
+                                    <li class="s1"><a href="#">PEONY HAND CREAM /<span> 50ml</span></a></li>
+                                    <li class="s2"><a href="#"></a></li>
+                                    <li class="s3"><a href="#">우아한 피오니의 산책 길.</a></li>
+                                    <li class="s4"><a href="#">21,000 KRW</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 2,
+                spaceBetween: 30,
+                loop: true,
+                autoplay: {//자동재생 
+                    delay: 2000,//슬라이드 넘어가는 시간
+                    disableOnInteraction: false,//클릭이동후 다시 슬라이드
+                },
+                cssMode: true,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                //   pagination: {
+                //     el: ".swiper-pagination",
+                //   },
+                mousewheel: true,
+                keyboard: true,
+            });
+        </script>
+    </div>
+
+
+
+    <div id="section4">
+        <div class="section4_wrap">
+            <div class="img_box">
+                <img src="images/product/soap banner.jpg" alt="#">
+            </div>
+            <div class="text_box">
+                <p class="t1">Hand Care Gift Set</p>
+                <p class="t2">LASANTE 핸드크림 & 비누 선물세트</p>
+                <p class="t3">※ 비누와 핸드크림으로 구성된 기프트 세트입니다. <br>
+                    ※ 상품 구매 시, 시향 가능한 샘플 키트가 함께 제공됩니다.(품절 시 제공불가) </p>
+                <a href="#">Go to collection</a>
+            </div>    
+        </div>
+    </div>
+
+
+
+    <div id="section9">
+        <div class="footer">
+            <div class="footer_left">
+                <p class="customerservice">CUSTOMER SERVICE</p>
+                <p class="number"><img src="images/main/1644-1004.svg" alt="#"></p>
+                <p class="time">10:00 - 17:00 <br>
+                    주말 및 공휴일 휴무</p>
+                <p class="place">부산 중구 중앙대로 26 10층 <br>
+                    26, Jungang-daero, Jung-gu, Busan, Republic of Korea</p>
+
+                <ul>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">사업자정보확인</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_right">
+                <ul>
+                    <li><a href="#"><img src="images/main/footer_facebook.png" alt="#"></a></li>
+                    <li><a href="#"><img src="images/main/footer_twitter.png" alt="#"></a></li>
+                    <li><a href="#"><img src="images/main/footer_instagram.png" alt="#"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
