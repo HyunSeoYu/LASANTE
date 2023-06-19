@@ -250,6 +250,7 @@ ul#filter a{
 #section3{
     height: 2200px;
     position: relative;
+     overflow: hidden;
 }
 
 .perfume_slide{
