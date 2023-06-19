@@ -195,7 +195,7 @@ body{
     align-items: center;
   }
 
-  .swiper-slide img {
+ .swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
@@ -208,13 +208,15 @@ body{
     display: inline-block;
   }
 
-  .section3_wrap{
+.section3_wrap{
     position: relative;
     overflow: hidden;
+    height: 490px;
 }
 
-  .img_box img{
+.img_box img{
     width: 100%;
+    height: 100%;
     display: block;
     transform: scale(1);
     transition: transform 0.5s;
@@ -279,6 +281,7 @@ body{
     color: #312D2D;
     margin: 10px 0 45px;
 }
+
 
 
 #section4{
