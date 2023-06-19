@@ -89,7 +89,7 @@ body{
     height: 2000px;
     text-align: center;
     padding-top: 150px;
-    background: url(../images/main/main\ collage.png) no-repeat center left 400px #F7F5E8;
+    background: url(../images/main/main\ collage.png) no-repeat center top #F7F5E8;
 }
 
 #section1 h1{
@@ -134,6 +134,7 @@ body{
     margin: 100px auto;
     height: 500px;
     position: relative;
+    overflow: hidden;
 }
 
 .bestseller_box{
